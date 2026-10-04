@@ -1,0 +1,42 @@
+
+
+共执行 17 秒
+输出速度:80 token/s
+我说的不对，那个 + 是全局"新建"菜单（新建 issue / 仓库 / codespace / gist…），没有 Create new file——因为你现在在文件详情页，不在仓库首页。
+
+直接开这个网址，一步到位：
+
+https://github.com/DongMenWeiQian/paperfmt-download/new/main
+打开后：
+
+Name your file... 框输入 current.json
+下面大编辑器粘贴 JSON
+右上角绿色 Commit changes...（现在是灰的，粘完才亮）→ 点
+就这样。
+
+23:12
+
+
+
+
+
+
+M3.1-Flash-Preview
+max
+内容由AI生成，重要信息请务必核查
+
+{
+  "new_version": "6.6.5",
+  "version": "6.6.5",
+  "tag": "v6.6.5",
+  "asset_name": "paperfmt-v6.6.5-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.5_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.5/paperfmt-v6.6.5-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.5/paperfmt-v6.6.5-setup.exe",
+  "size": 43303292,
+  "full_size": 43303292,
+  "sha256": "F025051B3F709D9A6FC0DEA6469ED2C10EF1A4FBFCD79DFCE60C8562C847EA7E",
+  "full_sha256": "F025051B3F709D9A6FC0DEA6469ED2C10EF1A4FBFCD79DFCE60C8562C847EA7E",
+  "release_notes": "v6.6.5 更新内容\n\n【全新】启动徽章动画：138 帧手绘线稿，4.97 秒循环一圈，徽章居中淡出后主窗口展开\n【全新】主窗口展开动画：600ms 由中心圆点优雅展开，真实时钟驱动，任何负载下时长一致\n【全新】程序图标重做：纸页 + 哑金缎面书签 + 右下卷边；七档 ICO，任务栏 / Alt-Tab / 标题栏 / 快捷方式 全部同步生效\n【修复】更新按钮对中文装包名会直接崩溃（UnicodeEncodeError），本版改用纯 ASCII 附件名\n【修复】主窗口里藏着第二套独立的 Upstash 查更新实现，且优先级最高，已删除\n【安全】更新通道整体搬到公开 jsdelivr，零凭据；装包内已无任何明文 GitHub token\n【新增】心跳上报加了用户开关，关掉后连 token 都不会解封；「谁在用」面板可一键切换\n【清理】归档 21.3 MB 死代码（3 套后端 / passwords.txt / master.json 等 53 个文件）",
+  "published_at": "2026-10-04T14:34:07Z"
+}

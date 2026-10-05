@@ -1,17 +1,24 @@
 {
-  "new_version": "6.6.11",
-  "version": "6.6.11",
-  "tag": "v6.6.11",
-  "asset_name": "paperfmt-v6.6.11-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.11_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.11/paperfmt-v6.6.11-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.11/paperfmt-v6.6.11-setup.exe",
-  "size": 43576291,
-  "full_size": 43576291,
-  "sha256": "384CC32BB7AC4BF4DF804050000C741E1BA16D8978EC3F81F9446050F77EA3B8",
-  "full_sha256": "384CC32BB7AC4BF4DF804050000C741E1BA16D8978EC3F81F9446050F77EA3B8",
-  "release_notes": "## v6.6.11\n\n- 修复展开动画结束时仍偶现闪一下：真实窗口此前从未被摆到徽章位置，交接瞬间会整窗位移（位移多大取决于系统怎么摆新窗口，所以时有时无）\n- 修复展开动画的收尾时机：改为先装好\"等首帧画完\"的守卫再显示主窗口，不再错过主窗口的第一帧绘制",
+  "new_version": "6.6.12",
+  "version": "6.6.12",
+  "tag": "v6.6.12",
+  "asset_name": "paperfmt-v6.6.12-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.12_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.12/paperfmt-v6.6.12-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.12/paperfmt-v6.6.12-setup.exe",
+  "size": 43569694,
+  "full_size": 43569694,
+  "sha256": "7E79E669D2FEADC199FB7806E9D47B5FA47CB1040B6650907CFDA3757BEAA0A0",
+  "full_sha256": "7E79E669D2FEADC199FB7806E9D47B5FA47CB1040B6650907CFDA3757BEAA0A0",
+  "release_notes": "## v6.6.12\n\n- 修复程序内更新总是失败：备用下载地址构造了却从未被接上，全程只试一个地址\n- 修复更新撞上网络抖动就判死：加入退避重试，网络时通时不通也能自己恢复\n- 更新失败时不再只说「自动下载失败」，弹窗会写明每个地址具体失败原因\n- 下载地址开下前先校验确实是装包：拦住代理返回的 HTML 错误页（状态码却是 200）\n- 更新失败不再删除已下载的半截文件，断点续传重新生效",
   "changelogs": {
+    "6.6.12": [
+      "修复程序内更新总是失败：备用下载地址构造了却从未被接上，全程只试一个地址",
+      "修复更新撞上网络抖动就判死：加入退避重试，网络时通时不通也能自己恢复",
+      "更新失败时不再只说「自动下载失败」，弹窗会写明每个地址具体失败原因",
+      "下载地址开下前先校验确实是装包：拦住代理返回的 HTML 错误页（状态码却是 200）",
+      "更新失败不再删除已下载的半截文件，断点续传重新生效"
+    ],
     "6.6.11": [
       "修复展开动画结束时仍偶现闪一下：真实窗口此前从未被摆到徽章位置，交接瞬间会整窗位移（位移多大取决于系统怎么摆新窗口，所以时有时无）",
       "修复展开动画的收尾时机：改为先装好\"等首帧画完\"的守卫再显示主窗口，不再错过主窗口的第一帧绘制"
@@ -246,5 +253,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-05T09:33:16Z"
+  "published_at": "2026-10-05T10:53:38Z"
 }

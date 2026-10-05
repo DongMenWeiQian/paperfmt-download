@@ -6,10 +6,10 @@
   "source_filename": "河北经贸论文排版工具_v6.6.8_安装包.exe",
   "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.8/paperfmt-v6.6.8-setup.exe",
   "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.8/paperfmt-v6.6.8-setup.exe",
-  "size": 43424067,
-  "full_size": 43424067,
-  "sha256": "DC78AD3DDB0BE649523D130E706B6F0A9DE34D539862A1895256A038B757EEE5",
-  "full_sha256": "DC78AD3DDB0BE649523D130E706B6F0A9DE34D539862A1895256A038B757EEE5",
-  "release_notes": "v6.6.8 更新内容\n\n【全新】程序图标重做：去掉深蓝底，纸页 + 哑金书签 + 卷角不规则外轮廓铺满整个图标\n【修复】更新通道实测重排：jsdelivr 252ms(6/6) + GitHub API 360ms(6/6)，删掉只有 2/6 成功率且超时要 20 秒的 raw\n【修复】已是最新的用户启动白等 41 秒 -> 现在 0.57 秒（快 72 倍）\n【修复】拿到\"不是新版\"的结果时不再提前判死，会继续试下一层\n【修复】\"手动下载\"按钮不再打开私有仓页面（用户点进去是 404）\n【修复】jsdelivr 下载兜底不再指向私有仓（它根本不服务私有仓，这层等于没有）\n【修复】更新通道三层全部指向公开仓，全程零凭据",
-  "published_at": "2026-10-05T05:04:04Z"
+  "size": 43732368,
+  "full_size": 43732368,
+  "sha256": "59973D8D2ED3EE121B0E408EE2E1D5964A3B87A3E5972B8A0EADE013E9C2E030",
+  "full_sha256": "59973D8D2ED3EE121B0E408EE2E1D5964A3B87A3E5972B8A0EADE013E9C2E030",
+  "release_notes": "v6.6.8 更新内容\n\n【全新】启动徽章重做：白线稿 + 全透明底，桌面直接透上来；边缘保留完整 8 位 alpha 不做量化\n【修复】启动徽章被裁切导致外圈圆环和齿轮残缺（源头是素材被我误裁，已改用原件 500x500）\n【修复】激活页也补上「圆点展开」动效（此前只有主窗口有）\n【修复】主线程被 PowerShell 同步调用卡死 0.7~4 秒，徽章静止、展开动画被错过\n【修复】跨线程回主线程误用 QTimer.singleShot，导致启动后卡死、窗口永不出现（改为信号桥）\n【修复】启动时 PowerShell 窗口闪现（加 CREATE_NO_WINDOW）\n【修复】更新通道三层全部指向公开仓，全程零凭据；已最新用户启动从 41.5 秒降到 0.6 秒\n【修复】「手动下载」按钮不再打开私有仓页面；jsdelivr 下载兜底不再指向私有仓\n【修复】授权页不再显示内部绝对路径",
+  "published_at": "2026-10-05T06:06:16Z"
 }

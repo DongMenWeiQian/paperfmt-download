@@ -1,17 +1,21 @@
 {
-  "new_version": "6.6.9",
-  "version": "6.6.9",
-  "tag": "v6.6.9",
-  "asset_name": "paperfmt-v6.6.9-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.9_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.9/paperfmt-v6.6.9-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.9/paperfmt-v6.6.9-setup.exe",
-  "size": 43568523,
-  "full_size": 43568523,
-  "sha256": "E2BDBA18C047167B2CB579218E628637AC215787170B85CAEB9DB42F55CFB7DB",
-  "full_sha256": "E2BDBA18C047167B2CB579218E628637AC215787170B85CAEB9DB42F55CFB7DB",
-  "release_notes": "v6.6.9 更新内容\n\n- 更新通道加一条永远新鲜的权威层（GitHub API 读 current.json），jsdelivr 降为兜底\n- 修复「明明有新版却检测不到」：jsdelivr 分支缓存最长 12 小时，之前它是唯一一层，缓存没刷新就一直报「已是最新」\n- 更新日志补全 6.6.4 ~ 6.6.8（此前从 6.6.3 之后就没写过）\n- 版本号规则写进代码：同一版本号不允许覆盖发布，发布脚本会直接拒绝",
+  "new_version": "6.6.10",
+  "version": "6.6.10",
+  "tag": "v6.6.10",
+  "asset_name": "paperfmt-v6.6.10-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.10_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.10/paperfmt-v6.6.10-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.10/paperfmt-v6.6.10-setup.exe",
+  "size": 43568334,
+  "full_size": 43568334,
+  "sha256": "393C39689DF6A57D0494E89FEB99DCAB60333A1CEC2152CC91DC95D32602C174",
+  "full_sha256": "393C39689DF6A57D0494E89FEB99DCAB60333A1CEC2152CC91DC95D32602C174",
+  "release_notes": "v6.6.10 更新内容\n\n- 修复跨版本更新说明显示成 Python 列表字面量：现在按版本分节，每条前面加「-」\n- 跨版本更新说明补上版本标题：跨了 5 版时能看清自己跳过了哪几版",
   "changelogs": {
+    "6.6.10": [
+      "修复跨版本更新说明显示成 Python 列表字面量：现在按版本分节，每条前面加「-」",
+      "跨版本更新说明补上版本标题：跨了 5 版时能看清自己跳过了哪几版"
+    ],
     "6.6.9": [
       "更新通道加一条永远新鲜的权威层（GitHub API 读 current.json），jsdelivr 降为兜底",
       "修复「明明有新版却检测不到」：jsdelivr 分支缓存最长 12 小时，之前它是唯一一层，缓存没刷新就一直报「已是最新」",
@@ -238,5 +242,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-05T08:38:16Z"
+  "published_at": "2026-10-05T08:45:43Z"
 }

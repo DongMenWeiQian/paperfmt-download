@@ -1,17 +1,21 @@
 {
-  "new_version": "6.6.12",
-  "version": "6.6.12",
-  "tag": "v6.6.12",
-  "asset_name": "paperfmt-v6.6.12-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.12_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.12/paperfmt-v6.6.12-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.12/paperfmt-v6.6.12-setup.exe",
-  "size": 43569694,
-  "full_size": 43569694,
-  "sha256": "7E79E669D2FEADC199FB7806E9D47B5FA47CB1040B6650907CFDA3757BEAA0A0",
-  "full_sha256": "7E79E669D2FEADC199FB7806E9D47B5FA47CB1040B6650907CFDA3757BEAA0A0",
-  "release_notes": "## v6.6.12\n\n- 修复程序内更新总是失败：备用下载地址构造了却从未被接上，全程只试一个地址\n- 修复更新撞上网络抖动就判死：加入退避重试，网络时通时不通也能自己恢复\n- 更新失败时不再只说「自动下载失败」，弹窗会写明每个地址具体失败原因\n- 下载地址开下前先校验确实是装包：拦住代理返回的 HTML 错误页（状态码却是 200）\n- 更新失败不再删除已下载的半截文件，断点续传重新生效",
+  "new_version": "6.6.13",
+  "version": "6.6.13",
+  "tag": "v6.6.13",
+  "asset_name": "paperfmt-v6.6.13-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.13_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.13/paperfmt-v6.6.13-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.13/paperfmt-v6.6.13-setup.exe",
+  "size": 43570307,
+  "full_size": 43570307,
+  "sha256": "21A0BF0B8D3595C689DD817645F7EEA5E13A22612D16BCB3B7C4F3FA3AFF4B69",
+  "full_sha256": "21A0BF0B8D3595C689DD817645F7EEA5E13A22612D16BCB3B7C4F3FA3AFF4B69",
+  "release_notes": "## v6.6.13\n\n- 修复展开动画结束瞬间闪一下黑色：主窗口是半透明无边框窗，绘制事件是在画之前投递的，之前在那一刻就撤掉了展开图层，露出的是主窗口尚未绘制的黑色背景\n- 修复展开交接流程跑两遍，导致同一瞬间重复显示窗口",
   "changelogs": {
+    "6.6.13": [
+      "修复展开动画结束瞬间闪一下黑色：主窗口是半透明无边框窗，绘制事件是在画之前投递的，之前在那一刻就撤掉了展开图层，露出的是主窗口尚未绘制的黑色背景",
+      "修复展开交接流程跑两遍，导致同一瞬间重复显示窗口"
+    ],
     "6.6.12": [
       "修复程序内更新总是失败：备用下载地址构造了却从未被接上，全程只试一个地址",
       "修复更新撞上网络抖动就判死：加入退避重试，网络时通时不通也能自己恢复",
@@ -253,5 +257,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-05T10:53:38Z"
+  "published_at": "2026-10-05T11:06:22Z"
 }

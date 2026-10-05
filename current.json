@@ -1,17 +1,21 @@
 {
-  "new_version": "6.6.10",
-  "version": "6.6.10",
-  "tag": "v6.6.10",
-  "asset_name": "paperfmt-v6.6.10-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.10_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.10/paperfmt-v6.6.10-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.10/paperfmt-v6.6.10-setup.exe",
-  "size": 43568334,
-  "full_size": 43568334,
-  "sha256": "393C39689DF6A57D0494E89FEB99DCAB60333A1CEC2152CC91DC95D32602C174",
-  "full_sha256": "393C39689DF6A57D0494E89FEB99DCAB60333A1CEC2152CC91DC95D32602C174",
-  "release_notes": "v6.6.10 更新内容\n\n- 修复跨版本更新说明显示成 Python 列表字面量：现在按版本分节，每条前面加「-」\n- 跨版本更新说明补上版本标题：跨了 5 版时能看清自己跳过了哪几版",
+  "new_version": "6.6.11",
+  "version": "6.6.11",
+  "tag": "v6.6.11",
+  "asset_name": "paperfmt-v6.6.11-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.11_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.11/paperfmt-v6.6.11-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.11/paperfmt-v6.6.11-setup.exe",
+  "size": 43576291,
+  "full_size": 43576291,
+  "sha256": "384CC32BB7AC4BF4DF804050000C741E1BA16D8978EC3F81F9446050F77EA3B8",
+  "full_sha256": "384CC32BB7AC4BF4DF804050000C741E1BA16D8978EC3F81F9446050F77EA3B8",
+  "release_notes": "## v6.6.11\n\n- 修复展开动画结束时仍偶现闪一下：真实窗口此前从未被摆到徽章位置，交接瞬间会整窗位移（位移多大取决于系统怎么摆新窗口，所以时有时无）\n- 修复展开动画的收尾时机：改为先装好\"等首帧画完\"的守卫再显示主窗口，不再错过主窗口的第一帧绘制",
   "changelogs": {
+    "6.6.11": [
+      "修复展开动画结束时仍偶现闪一下：真实窗口此前从未被摆到徽章位置，交接瞬间会整窗位移（位移多大取决于系统怎么摆新窗口，所以时有时无）",
+      "修复展开动画的收尾时机：改为先装好\"等首帧画完\"的守卫再显示主窗口，不再错过主窗口的第一帧绘制"
+    ],
     "6.6.10": [
       "修复跨版本更新说明显示成 Python 列表字面量：现在按版本分节，每条前面加「-」",
       "跨版本更新说明补上版本标题：跨了 5 版时能看清自己跳过了哪几版"
@@ -242,5 +246,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-05T08:45:43Z"
+  "published_at": "2026-10-05T09:33:16Z"
 }

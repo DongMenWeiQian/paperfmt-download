@@ -1,15 +1,15 @@
 {
-  "new_version": "6.6.6",
-  "version": "6.6.6",
-  "tag": "v6.6.6",
-  "asset_name": "paperfmt-v6.6.6-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.6_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.6/paperfmt-v6.6.6-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.6/paperfmt-v6.6.6-setup.exe",
-  "size": 43305338,
-  "full_size": 43305338,
-  "sha256": "35915FB39998B76B176F729777DC86FC865DF9D727AB6896B6F732E36981EC47",
-  "full_sha256": "35915FB39998B76B176F729777DC86FC865DF9D727AB6896B6F732E36981EC47",
-  "release_notes": "v6.6.6 更新内容\n\n【修复】更新通道三层全部指向公开仓，全程零凭据\n【修复】「手动下载」按钮不再打开私有仓页面（用户点进去是 404）\n【修复】jsdelivr 下载兜底不再指向私有仓（jsdelivr 根本不服务私有仓，这层兜底以前等于没有）\n【修复】查更新候选地址重排：raw 直连 git 优先（发布即生效），jsdelivr 降为兜底\n【清理】删掉两条永远 404 的 release 分支候选地址，每次启动少等两个 404\n【修复】发版脚本强制 ASCII 附件名，杜绝 UnicodeEncodeError 复发",
-  "published_at": "2026-10-05T02:38:48Z"
+  "new_version": "6.6.7",
+  "version": "6.6.7",
+  "tag": "v6.6.7",
+  "asset_name": "paperfmt-v6.6.7-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.7_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.7/paperfmt-v6.6.7-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.7/paperfmt-v6.6.7-setup.exe",
+  "size": 43137399,
+  "full_size": 43137399,
+  "sha256": "42F0FE35F5CEFA5976777149BC4C06CE3E931418C6722F6FF5174B20752FFDD6",
+  "full_sha256": "42F0FE35F5CEFA5976777149BC4C06CE3E931418C6722F6FF5174B20752FFDD6",
+  "release_notes": "v6.6.7 更新内容\n\n【全新】程序图标重做：去掉深蓝底，纸页 + 哑金书签 + 卷角不规则外轮廓铺满整个图标\n【修复】更新通道实测重排：jsdelivr 252ms(6/6) + GitHub API 360ms(6/6)，删掉只有 2/6 成功率且超时要 20 秒的 raw\n【修复】已是最新的用户启动白等 41 秒 -> 现在 0.57 秒（快 72 倍）\n【修复】拿到\"不是新版\"的结果时不再提前判死，会继续试下一层\n【修复】\"手动下载\"按钮不再打开私有仓页面（用户点进去是 404）\n【修复】jsdelivr 下载兜底不再指向私有仓（它根本不服务私有仓，这层等于没有）\n【修复】更新通道三层全部指向公开仓，全程零凭据",
+  "published_at": "2026-10-05T04:12:54Z"
 }

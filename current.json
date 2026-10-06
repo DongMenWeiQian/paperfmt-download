@@ -1,17 +1,20 @@
 {
-  "new_version": "6.6.15",
-  "version": "6.6.15",
-  "tag": "v6.6.15",
-  "asset_name": "paperfmt-v6.6.15-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.15_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.15/paperfmt-v6.6.15-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.15/paperfmt-v6.6.15-setup.exe",
-  "size": 43602655,
-  "full_size": 43602655,
-  "sha256": "EC2C162153D3C649DDAC6F5F261F8D80F3D964BA9B08AB84CB33D13FBFD6856C",
-  "full_sha256": "EC2C162153D3C649DDAC6F5F261F8D80F3D964BA9B08AB84CB33D13FBFD6856C",
-  "release_notes": "## v6.6.15\n\n- 修复启动动画「播了一小段又重新开始」：实测 139 帧里只有前 65 帧在动，后面 73 帧是一张纹丝不动的静止画面，导致动一下就卡住 1.46 秒。现在只播真正在动的部分\n- 启动动画不再有静止停留：徽章会一直转到展开动画开始那一刻，不再是「动完停一秒」\n- 修复激活页面顶部没有横条的问题：顶栏和圆角窗口标志一直没装上，既不符合界面规范，也导致展开动画衔接不流畅\n- 点击标题栏右上角的月亮/太阳切换深浅色，现在会弹出提示（之前点了没有任何反应）",
+  "new_version": "6.6.16",
+  "version": "6.6.16",
+  "tag": "v6.6.16",
+  "asset_name": "paperfmt-v6.6.16-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.16_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.16/paperfmt-v6.6.16-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.16/paperfmt-v6.6.16-setup.exe",
+  "size": 43608096,
+  "full_size": 43608096,
+  "sha256": "B9F5A2FAEE1207DE2791E66621B79FA1812AACEE54DEEEB66B4DBF361D2A2D53",
+  "full_sha256": "B9F5A2FAEE1207DE2791E66621B79FA1812AACEE54DEEEB66B4DBF361D2A2D53",
+  "release_notes": "## v6.6.16\n\n- 修复启动动画播到一半就被切断：现在保证至少完整转一圈才会进入展开，而且等待期间徽章一直在转，不会卡住",
   "changelogs": {
+    "6.6.16": [
+      "修复启动动画播到一半就被切断：现在保证至少完整转一圈才会进入展开，而且等待期间徽章一直在转，不会卡住"
+    ],
     "6.6.15": [
       "修复启动动画「播了一小段又重新开始」：实测 139 帧里只有前 65 帧在动，后面 73 帧是一张纹丝不动的静止画面，导致动一下就卡住 1.46 秒。现在只播真正在动的部分",
       "启动动画不再有静止停留：徽章会一直转到展开动画开始那一刻，不再是「动完停一秒」",
@@ -295,5 +298,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-06T04:12:23Z"
+  "published_at": "2026-10-06T04:32:45Z"
 }

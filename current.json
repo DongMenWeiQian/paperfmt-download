@@ -1,19 +1,25 @@
 {
-  "new_version": "6.6.27",
-  "version": "6.6.27",
-  "tag": "v6.6.27",
-  "asset_name": "paperfmt-v6.6.27-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v6.6.27_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.27/paperfmt-v6.6.27-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.27/paperfmt-v6.6.27-setup.exe",
-  "asset_id": 623748313,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/623748313",
-  "size": 43731176,
-  "full_size": 43731176,
-  "sha256": "D9693DD1ADD54D75B5019B676DF961BB0D33C9D549E2B1A8E67712AD4AA8B03B",
-  "full_sha256": "D9693DD1ADD54D75B5019B676DF961BB0D33C9D549E2B1A8E67712AD4AA8B03B",
-  "release_notes": "## v6.6.27\n\n- 程序内更新此前在很多网络下必然失败：能检测到新版本，但装包下不下来，一直卡在 0% 后报错。\n- 原因不在网络本身，而在程序里。下载地址原本指向 github.com，该地址实测「连接正常、加密握手也正常，但一发请求就被中断」，多次复现；而程序当时没有走备用的下载通道。\n- 现改为优先走另一条通道，零凭据、公开可下。实测完整下载 41.7MB，校验值与发布登记完全一致。\n- 下载地址不再每次现查，改由发布时一并写好。一间教室的学生共用同一个网络出口时，不会因为查询次数超限而一起失败。\n- 原有的备用地址一个都没有删除：主通道不通时仍会依次尝试其他地址，全部不通才提示手动下载。\n- 修复「主地址失效后重新获取」这一步会漏掉新通道的问题：此前的修复只改了主流程，这条分支里还留着旧写法，主地址一失效修复就失效。\n- 新增自动检查，防止这类问题再次出现。",
+  "new_version": "6.6.28",
+  "version": "6.6.28",
+  "tag": "v6.6.28",
+  "asset_name": "paperfmt-v6.6.28-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v6.6.28_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.28/paperfmt-v6.6.28-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v6.6.28/paperfmt-v6.6.28-setup.exe",
+  "asset_id": 623972648,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/623972648",
+  "size": 43742759,
+  "full_size": 43742759,
+  "sha256": "0A1F7639D47246F8FA76B9DC7E7D8ECB894A298B09672C7D68C8E528E198269D",
+  "full_sha256": "0A1F7639D47246F8FA76B9DC7E7D8ECB894A298B09672C7D68C8E528E198269D",
+  "release_notes": "## v6.6.28\n\n- 阶段页卡片标题行上的「自动保存」等小徽章，此前形状不对：圆角写死 6px，而它没有固定高度，实际约 19px，既不是胶囊也不是方块。现改为按高度算圆角，形状与全应用其它徽章一致。\n- 小徽章字号仍为 11px，未改动。按 2026-10-06 定的规范，11px 只允许出现在20px 小档，本处正是该档。\n- 修正主题文件里一处与上述规范相矛盾的注释（原文写「11px 不再用」）。\n- 自动检查收紧：此前一处手写徽章样式因为没有写加粗而躲过了检查，现已能抓到。",
   "changelogs": {
+    "6.6.28": [
+      "阶段页卡片标题行上的「自动保存」等小徽章，此前形状不对：圆角写死 6px，而它没有固定高度，实际约 19px，既不是胶囊也不是方块。现改为按高度算圆角，形状与全应用其它徽章一致。",
+      "小徽章字号仍为 11px，未改动。按 2026-10-06 定的规范，11px 只允许出现在20px 小档，本处正是该档。",
+      "修正主题文件里一处与上述规范相矛盾的注释（原文写「11px 不再用」）。",
+      "自动检查收紧：此前一处手写徽章样式因为没有写加粗而躲过了检查，现已能抓到。"
+    ],
     "6.6.27": [
       "程序内更新此前在很多网络下必然失败：能检测到新版本，但装包下不下来，一直卡在 0% 后报错。",
       "原因不在网络本身，而在程序里。下载地址原本指向 github.com，该地址实测「连接正常、加密握手也正常，但一发请求就被中断」，多次复现；而程序当时没有走备用的下载通道。",
@@ -379,5 +385,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-09T03:14:23Z"
+  "published_at": "2026-10-09T05:15:50Z"
 }

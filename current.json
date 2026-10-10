@@ -1,19 +1,25 @@
 {
-  "new_version": "7.0.4",
-  "version": "7.0.4",
-  "tag": "v7.0.4",
-  "asset_name": "paperfmt-v7.0.4-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.0.4_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.0.4/paperfmt-v7.0.4-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.0.4/paperfmt-v7.0.4-setup.exe",
-  "asset_id": 626836596,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/626836596",
-  "size": 48532976,
-  "full_size": 48532976,
-  "sha256": "235FCC4BF095C3B687B95D40FA409D0AD94B978E9DBA5E49902D6252DC33C13B",
-  "full_sha256": "235FCC4BF095C3B687B95D40FA409D0AD94B978E9DBA5E49902D6252DC33C13B",
-  "release_notes": "## v7.0.4\n\n- 框里的字不再被切掉：「写哪一节」那个下拉框里的「（框架还没填，先填上面的论文骨架）」以前少一个右括号，现在完整显示。全项目扫了一遍，21 个下拉框、237 个标签、174 个按钮、5 个输入框，都没有再裁字。\n- 这个毛病修过一次（v6.6.23）但没修好：当时验的是「代码里调用了 sizeHint()」，而 sizeHint 给的恰好是「零余量」—— 文字正好排到边框，亚像素舍入把最后一个字吃掉。这次改成拿「不受宽度限制的参照框」比像素，验的是结果不是做法。\n- 顺带修了一个更隐蔽的：下拉框的宽度是在「还没显示」时量出来就定死的，而那时样式还没生效，量出来的宽度比实际需要少 36px，于是「完整诊断(逐条问题 + 改好的题目 + 风险）」被钉在 300px、最后 8px 被裁。现在先让样式生效再量。",
+  "new_version": "7.1.0",
+  "version": "7.1.0",
+  "tag": "v7.1.0",
+  "asset_name": "paperfmt-v7.1.0-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.1.0_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.1.0/paperfmt-v7.1.0-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.1.0/paperfmt-v7.1.0-setup.exe",
+  "asset_id": 627109695,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/627109695",
+  "size": 48529556,
+  "full_size": 48529556,
+  "sha256": "BAD4468FA5A89E3CF2F1FE688056C262E950563B91912085AFFEB2C50EAEFE68",
+  "full_sha256": "BAD4468FA5A89E3CF2F1FE688056C262E950563B91912085AFFEB2C50EAEFE68",
+  "release_notes": "## v7.1.0\n\n- 六个阶段页（选题/开题/初稿/二稿/三稿/定稿）改成**一次只显示一块**，不用再一路往下滚了。左侧有一条小长条列出所有块名，点一下直接跳过去，左右两边也有「<」「>」按顺序翻。\n- 切块分布：选题 7 块、开题 8 块、初稿 3 块、二稿 2 块、三稿 3 块、定稿 2 块。开题页的八张卡现在是「论文框架 / 文献体检 / 全文自检 / 申请书栏目 / 提交清单 / AI 检查 / AI 生成 / AI 润色」，一次只看一张。\n- 换块的时候不用滚了。只有某一块内容确实超过一屏时，那一块内部才会出现滚动条（比如开题页的申请书栏目、选题页的基本信息），其余块都一屏放得下。\n- 左侧那条小长条是自己画的一列按钮，不是系统自带的标签页 —— 自带的那个会把「全文自检」挤成竖着的一列字，宽窄也改不动。",
   "changelogs": {
+    "7.1.0": [
+      "六个阶段页（选题/开题/初稿/二稿/三稿/定稿）改成**一次只显示一块**，不用再一路往下滚了。左侧有一条小长条列出所有块名，点一下直接跳过去，左右两边也有「<」「>」按顺序翻。",
+      "切块分布：选题 7 块、开题 8 块、初稿 3 块、二稿 2 块、三稿 3 块、定稿 2 块。开题页的八张卡现在是「论文框架 / 文献体检 / 全文自检 / 申请书栏目 / 提交清单 / AI 检查 / AI 生成 / AI 润色」，一次只看一张。",
+      "换块的时候不用滚了。只有某一块内容确实超过一屏时，那一块内部才会出现滚动条（比如开题页的申请书栏目、选题页的基本信息），其余块都一屏放得下。",
+      "左侧那条小长条是自己画的一列按钮，不是系统自带的标签页 —— 自带的那个会把「全文自检」挤成竖着的一列字，宽窄也改不动。"
+    ],
     "7.0.4": [
       "框里的字不再被切掉：「写哪一节」那个下拉框里的「（框架还没填，先填上面的论文骨架）」以前少一个右括号，现在完整显示。全项目扫了一遍，21 个下拉框、237 个标签、174 个按钮、5 个输入框，都没有再裁字。",
       "这个毛病修过一次（v6.6.23）但没修好：当时验的是「代码里调用了 sizeHint()」，而 sizeHint 给的恰好是「零余量」—— 文字正好排到边框，亚像素舍入把最后一个字吃掉。这次改成拿「不受宽度限制的参照框」比像素，验的是结果不是做法。",
@@ -445,5 +451,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-10T02:55:50Z"
+  "published_at": "2026-10-10T05:37:17Z"
 }

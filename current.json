@@ -1,19 +1,24 @@
 {
-  "new_version": "7.2.0",
-  "version": "7.2.0",
-  "tag": "v7.2.0",
-  "asset_name": "paperfmt-v7.2.0-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.2.0_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.2.0/paperfmt-v7.2.0-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.2.0/paperfmt-v7.2.0-setup.exe",
-  "asset_id": 627309988,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/627309988",
-  "size": 48554687,
-  "full_size": 48554687,
-  "sha256": "CCD82625641221042A223A77DA04B2411C0C632779A00C875FF10FEF09E3E3E2",
-  "full_sha256": "CCD82625641221042A223A77DA04B2411C0C632779A00C875FF10FEF09E3E3E2",
-  "release_notes": "## v7.2.0\n\n- 六个阶段页的左侧长条变瘦了：宽度从 124 收到 104，文字按「离当前多远」分层 —— 当前这一块最大（加粗、蓝底），挨着的一档小一号，再挨着的再小一号，越远越小。\n- 换块时标题条右边会出现一块圆角底板的小灰字，说明当前这一块是干什么用的；换块它就跟着换。25 个块都写了说明。\n- 「<」「>」两个切换键变大到 52×52 并改成实心强调色，两侧改为上下居中（原来贴在顶边）。\n- 「<」「>」现在是**循环**的：走到最后再点「>」就回到第一块，并提示「这个流程又从头开始了」，所以两个键任何时候都不会点不动。\n- 块名太长时（比如「提交前核对」）会自动降一档字号而不是把字裁掉。",
+  "new_version": "7.3.0",
+  "version": "7.3.0",
+  "tag": "v7.3.0",
+  "asset_name": "paperfmt-v7.3.0-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.3.0_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.3.0/paperfmt-v7.3.0-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.3.0/paperfmt-v7.3.0-setup.exe",
+  "asset_id": 627673749,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/627673749",
+  "size": 48535875,
+  "full_size": 48535875,
+  "sha256": "9E4456348A576D480CE091E9CF8486690ED0780A9109ABB712FFD75C97876C7C",
+  "full_sha256": "9E4456348A576D480CE091E9CF8486690ED0780A9109ABB712FFD75C97876C7C",
+  "release_notes": "## v7.3.0\n\n- 六个阶段页左边那条改成**轮播**：当前这一块永远停在列的正中间，往下依次是下一块、下两块……到最后一块之后会绕回第 1、2 块；往上同理。字号仍是当前最大、越远越小。\n- 整列改为**垂直居中**，不再贴在左边上面；「<」「>」两个切换键移到长条两侧并改成白底（原来 52 像素实心蓝太显眼）。\n- 切换键仍然循环：走到头再点会绕回另一头并提示「这个流程又从头开始了」。",
   "changelogs": {
+    "7.3.0": [
+      "六个阶段页左边那条改成**轮播**：当前这一块永远停在列的正中间，往下依次是下一块、下两块……到最后一块之后会绕回第 1、2 块；往上同理。字号仍是当前最大、越远越小。",
+      "整列改为**垂直居中**，不再贴在左边上面；「<」「>」两个切换键移到长条两侧并改成白底（原来 52 像素实心蓝太显眼）。",
+      "切换键仍然循环：走到头再点会绕回另一头并提示「这个流程又从头开始了」。"
+    ],
     "7.2.0": [
       "六个阶段页的左侧长条变瘦了：宽度从 124 收到 104，文字按「离当前多远」分层 —— 当前这一块最大（加粗、蓝底），挨着的一档小一号，再挨着的再小一号，越远越小。",
       "换块时标题条右边会出现一块圆角底板的小灰字，说明当前这一块是干什么用的；换块它就跟着换。25 个块都写了说明。",
@@ -458,5 +463,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-10T07:27:29Z"
+  "published_at": "2026-10-10T10:31:13Z"
 }

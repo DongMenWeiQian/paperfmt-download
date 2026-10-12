@@ -1,19 +1,24 @@
 {
-  "new_version": "7.5.4",
-  "version": "7.5.4",
-  "tag": "v7.5.4",
-  "asset_name": "paperfmt-v7.5.4-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.5.4_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.4/paperfmt-v7.5.4-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.4/paperfmt-v7.5.4-setup.exe",
-  "asset_id": 632778887,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632778887",
-  "size": 48575274,
-  "full_size": 48575274,
-  "sha256": "293D73072DDF82EBB853A87F8DB1EB7A5CEF8143F83769F9B9E1905FDD80465E",
-  "full_sha256": "293D73072DDF82EBB853A87F8DB1EB7A5CEF8143F83769F9B9E1905FDD80465E",
-  "release_notes": "## v7.5.4\n\n- 左右两个切换键现在真的和左边那一列的当前项上下对齐了。上一版看着修好了，其实真实窗口下还差 18 个像素 —— 原因是那次校准跑在页面还没排版完成的时候，量到的都是 0，等于什么都没做，而且不报错。\n- 左边那一列的字号改成从中间往两边每档正好小 1 个像素（14 / 13 / 12 / 11 / 10），最大的一档也比上一版小了一号。\n- 在阶段页上滚滚轮就能切上一块、下一块。不过如果当前这一块的内容还没滚到底，滚轮仍然滚内容，不会切块。",
+  "new_version": "7.5.5",
+  "version": "7.5.5",
+  "tag": "v7.5.5",
+  "asset_name": "paperfmt-v7.5.5-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.5.5_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.5/paperfmt-v7.5.5-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.5/paperfmt-v7.5.5-setup.exe",
+  "asset_id": 632955659,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632955659",
+  "size": 48577756,
+  "full_size": 48577756,
+  "sha256": "DA0A22E11A9864D8DDA0944CA48D7F89FF9C04434DB6EF9DA80598BC5698500F",
+  "full_sha256": "DA0A22E11A9864D8DDA0944CA48D7F89FF9C04434DB6EF9DA80598BC5698500F",
+  "release_notes": "## v7.5.5\n\n- 左侧那一列的字号又小了一档：从 14 / 13 / 12 / 11 / 10 改成 12 / 11 / 10 / 9 / 8。最大的一档现在和正文一样大，列里再没有比正文更大的字，而且每一档正好差 1 个像素。\n- 左侧每一项前面加了序号（01、02、03……），一眼就知道现在是第几个功能。序号取的是这个功能自己的编号，不是它在列表里的位置，所以循环切换也不会乱。\n- 左边那一列和左右两个切换键，现在整体垂直居中在内容区的正中。之前是对着整列居中，而当前那一项在第 5 格，两边差 17 个像素，看着就是没居中。",
   "changelogs": {
+    "7.5.5": [
+      "左侧那一列的字号又小了一档：从 14 / 13 / 12 / 11 / 10 改成 12 / 11 / 10 / 9 / 8。最大的一档现在和正文一样大，列里再没有比正文更大的字，而且每一档正好差 1 个像素。",
+      "左侧每一项前面加了序号（01、02、03……），一眼就知道现在是第几个功能。序号取的是这个功能自己的编号，不是它在列表里的位置，所以循环切换也不会乱。",
+      "左边那一列和左右两个切换键，现在整体垂直居中在内容区的正中。之前是对着整列居中，而当前那一项在第 5 格，两边差 17 个像素，看着就是没居中。"
+    ],
     "7.5.4": [
       "左右两个切换键现在真的和左边那一列的当前项上下对齐了。上一版看着修好了，其实真实窗口下还差 18 个像素 —— 原因是那次校准跑在页面还没排版完成的时候，量到的都是 0，等于什么都没做，而且不报错。",
       "左边那一列的字号改成从中间往两边每档正好小 1 个像素（14 / 13 / 12 / 11 / 10），最大的一档也比上一版小了一号。",
@@ -500,5 +505,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-12T05:32:40Z"
+  "published_at": "2026-10-12T06:56:31Z"
 }

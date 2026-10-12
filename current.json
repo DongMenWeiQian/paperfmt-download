@@ -1,19 +1,25 @@
 {
-  "new_version": "7.5.1",
-  "version": "7.5.1",
-  "tag": "v7.5.1",
-  "asset_name": "paperfmt-v7.5.1-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.5.1_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.1/paperfmt-v7.5.1-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.1/paperfmt-v7.5.1-setup.exe",
-  "asset_id": 632230957,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632230957",
-  "size": 48531569,
-  "full_size": 48531569,
-  "sha256": "44D9F5495ED4779BF35951CC229D3860251A49580A97942EA2448F56D9D161AE",
-  "full_sha256": "44D9F5495ED4779BF35951CC229D3860251A49580A97942EA2448F56D9D161AE",
-  "release_notes": "## v7.5.1\n\n- 左侧那条现在贴着字了：每一项的宽度就是它自己的文字宽度，不再铺满整列。\n- 整列宽度从 132 收到 120。列宽只需要容下最宽的那一项（「论文基本信息」17 号字 102 像素，加左右留白 12 是 114），原来多出来的 12 像素一直空在那儿。\n- 上一版把蓝底铺满整列，最短的一项（「提交清单」，文字只有 44 像素）蓝底却有 132 像素，是文字的三倍，看着整块页面都被撑宽了。",
+  "new_version": "7.5.2",
+  "version": "7.5.2",
+  "tag": "v7.5.2",
+  "asset_name": "paperfmt-v7.5.2-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.5.2_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.2/paperfmt-v7.5.2-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.2/paperfmt-v7.5.2-setup.exe",
+  "asset_id": 632413971,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632413971",
+  "size": 48556251,
+  "full_size": 48556251,
+  "sha256": "604637A4644CA961FB51194623374EF4B310FBB57FF8A8834491F4BC89A60C15",
+  "full_sha256": "604637A4644CA961FB51194623374EF4B310FBB57FF8A8834491F4BC89A60C15",
+  "release_notes": "## v7.5.2\n\n- 表单右边不再空一大片：输入框和下拉框从「定死宽度」改成「最小宽度 + 自动拉伸」，窄的时候收到最小，宽的时候填满整张卡片。\n- AI 服务那一块之前会被顶出一条横向滚动条（内容最少要 830 像素，实际只有 800），现在没有了，六页都验过。\n- 整体字号调小一档：正文 13 改 12、次级说明 14 改 13、应用默认 10 改 9。仍在学校规范允许的四档之内。\n- 左侧当前项的蓝色底改成胶囊形（圆角取高度一半），不再像个方块。",
   "changelogs": {
+    "7.5.2": [
+      "表单右边不再空一大片：输入框和下拉框从「定死宽度」改成「最小宽度 + 自动拉伸」，窄的时候收到最小，宽的时候填满整张卡片。",
+      "AI 服务那一块之前会被顶出一条横向滚动条（内容最少要 830 像素，实际只有 800），现在没有了，六页都验过。",
+      "整体字号调小一档：正文 13 改 12、次级说明 14 改 13、应用默认 10 改 9。仍在学校规范允许的四档之内。",
+      "左侧当前项的蓝色底改成胶囊形（圆角取高度一半），不再像个方块。"
+    ],
     "7.5.1": [
       "左侧那条现在贴着字了：每一项的宽度就是它自己的文字宽度，不再铺满整列。",
       "整列宽度从 132 收到 120。列宽只需要容下最宽的那一项（「论文基本信息」17 号字 102 像素，加左右留白 12 是 114），原来多出来的 12 像素一直空在那儿。",
@@ -483,5 +489,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-12T00:51:30Z"
+  "published_at": "2026-10-12T02:24:51Z"
 }

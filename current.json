@@ -1,19 +1,24 @@
 {
-  "new_version": "7.5.0",
-  "version": "7.5.0",
-  "tag": "v7.5.0",
-  "asset_name": "paperfmt-v7.5.0-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.5.0_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.0/paperfmt-v7.5.0-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.0/paperfmt-v7.5.0-setup.exe",
-  "asset_id": 628240988,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/628240988",
-  "size": 48567388,
-  "full_size": 48567388,
-  "sha256": "869A0C59C4B25D12E97B2E3485B3B0A91FEA8DD71F8B7F3F3B1A63461531EDC8",
-  "full_sha256": "869A0C59C4B25D12E97B2E3485B3B0A91FEA8DD71F8B7F3F3B1A63461531EDC8",
-  "release_notes": "## v7.5.0\n\n- 阶段页最上面那条标题条原来比下面的内容区长一大截（左边多出 184 像素、右边多出 46 像素），看着不协调。现在标题条和内容区是同一列宽，左右逐像素对齐。\n- 左侧那列现在**每页都是 8 格**。以前二稿、定稿只有 2 块，上面下面空一大片；现在块不够就循环重复填满 —— 这一轮走完接着显示新一轮的第一条、第二条、第三条。当前那一块永远在正中间，只有它高亮。\n- 长条上的字改成从中间往两边**一级一级变小**（17 / 15 / 13 / 12 / 11）。以前八格里有一半都是 12 号，看着都一样大。这一处的字号是设计规范特意开的例外，规范里那套 26/17/13/12 在这里分不出台阶。\n- 修了一个点「>」没反应的问题：在块数比格子数少的页上（初稿、三稿、二稿、定稿），走到最后一块再点会报错，表现为按钮像是坏了。",
+  "new_version": "7.5.1",
+  "version": "7.5.1",
+  "tag": "v7.5.1",
+  "asset_name": "paperfmt-v7.5.1-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.5.1_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.1/paperfmt-v7.5.1-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.1/paperfmt-v7.5.1-setup.exe",
+  "asset_id": 632230957,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632230957",
+  "size": 48531569,
+  "full_size": 48531569,
+  "sha256": "44D9F5495ED4779BF35951CC229D3860251A49580A97942EA2448F56D9D161AE",
+  "full_sha256": "44D9F5495ED4779BF35951CC229D3860251A49580A97942EA2448F56D9D161AE",
+  "release_notes": "## v7.5.1\n\n- 左侧那条现在贴着字了：每一项的宽度就是它自己的文字宽度，不再铺满整列。\n- 整列宽度从 132 收到 120。列宽只需要容下最宽的那一项（「论文基本信息」17 号字 102 像素，加左右留白 12 是 114），原来多出来的 12 像素一直空在那儿。\n- 上一版把蓝底铺满整列，最短的一项（「提交清单」，文字只有 44 像素）蓝底却有 132 像素，是文字的三倍，看着整块页面都被撑宽了。",
   "changelogs": {
+    "7.5.1": [
+      "左侧那条现在贴着字了：每一项的宽度就是它自己的文字宽度，不再铺满整列。",
+      "整列宽度从 132 收到 120。列宽只需要容下最宽的那一项（「论文基本信息」17 号字 102 像素，加左右留白 12 是 114），原来多出来的 12 像素一直空在那儿。",
+      "上一版把蓝底铺满整列，最短的一项（「提交清单」，文字只有 44 像素）蓝底却有 132 像素，是文字的三倍，看着整块页面都被撑宽了。"
+    ],
     "7.5.0": [
       "阶段页最上面那条标题条原来比下面的内容区长一大截（左边多出 184 像素、右边多出 46 像素），看着不协调。现在标题条和内容区是同一列宽，左右逐像素对齐。",
       "左侧那列现在**每页都是 8 格**。以前二稿、定稿只有 2 块，上面下面空一大片；现在块不够就循环重复填满 —— 这一轮走完接着显示新一轮的第一条、第二条、第三条。当前那一块永远在正中间，只有它高亮。",
@@ -478,5 +483,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-10T15:01:05Z"
+  "published_at": "2026-10-12T00:51:30Z"
 }

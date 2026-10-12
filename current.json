@@ -1,19 +1,24 @@
 {
-  "new_version": "7.5.3",
-  "version": "7.5.3",
-  "tag": "v7.5.3",
-  "asset_name": "paperfmt-v7.5.3-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.5.3_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.3/paperfmt-v7.5.3-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.3/paperfmt-v7.5.3-setup.exe",
-  "asset_id": 632643565,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632643565",
-  "size": 48572279,
-  "full_size": 48572279,
-  "sha256": "74B2F5F463923B2909466D0F981DD80921AC8420352A8B02463184CE3D39FA6D",
-  "full_sha256": "74B2F5F463923B2909466D0F981DD80921AC8420352A8B02463184CE3D39FA6D",
-  "release_notes": "## v7.5.3\n\n- 左右两个切换键现在和左边那一列的当前项上下对齐了。之前它们对齐的是整列的正中间，而当前项在第 5 格，两者差半个格子，看着就是偏上的。\n- 左边那一列的字号再小一档，从中间往两边是 15 / 13 / 12 / 11 / 10。\n- 左边那一列的宽度按本页最长的一项自动收缩，短字的那几页右边不再空一大片。\n- 走到头再点切换键时的提示改成正式说法「已回到第一个功能」。",
+  "new_version": "7.5.4",
+  "version": "7.5.4",
+  "tag": "v7.5.4",
+  "asset_name": "paperfmt-v7.5.4-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.5.4_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.4/paperfmt-v7.5.4-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.5.4/paperfmt-v7.5.4-setup.exe",
+  "asset_id": 632778887,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/632778887",
+  "size": 48575274,
+  "full_size": 48575274,
+  "sha256": "293D73072DDF82EBB853A87F8DB1EB7A5CEF8143F83769F9B9E1905FDD80465E",
+  "full_sha256": "293D73072DDF82EBB853A87F8DB1EB7A5CEF8143F83769F9B9E1905FDD80465E",
+  "release_notes": "## v7.5.4\n\n- 左右两个切换键现在真的和左边那一列的当前项上下对齐了。上一版看着修好了，其实真实窗口下还差 18 个像素 —— 原因是那次校准跑在页面还没排版完成的时候，量到的都是 0，等于什么都没做，而且不报错。\n- 左边那一列的字号改成从中间往两边每档正好小 1 个像素（14 / 13 / 12 / 11 / 10），最大的一档也比上一版小了一号。\n- 在阶段页上滚滚轮就能切上一块、下一块。不过如果当前这一块的内容还没滚到底，滚轮仍然滚内容，不会切块。",
   "changelogs": {
+    "7.5.4": [
+      "左右两个切换键现在真的和左边那一列的当前项上下对齐了。上一版看着修好了，其实真实窗口下还差 18 个像素 —— 原因是那次校准跑在页面还没排版完成的时候，量到的都是 0，等于什么都没做，而且不报错。",
+      "左边那一列的字号改成从中间往两边每档正好小 1 个像素（14 / 13 / 12 / 11 / 10），最大的一档也比上一版小了一号。",
+      "在阶段页上滚滚轮就能切上一块、下一块。不过如果当前这一块的内容还没滚到底，滚轮仍然滚内容，不会切块。"
+    ],
     "7.5.3": [
       "左右两个切换键现在和左边那一列的当前项上下对齐了。之前它们对齐的是整列的正中间，而当前项在第 5 格，两者差半个格子，看着就是偏上的。",
       "左边那一列的字号再小一档，从中间往两边是 15 / 13 / 12 / 11 / 10。",
@@ -495,5 +500,5 @@
       "v6.2.13 起支持系统托盘与开机自启"
     ]
   },
-  "published_at": "2026-10-12T04:27:33Z"
+  "published_at": "2026-10-12T05:32:40Z"
 }

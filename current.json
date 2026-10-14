@@ -1,19 +1,25 @@
 {
-  "new_version": "7.7.1",
-  "version": "7.7.1",
-  "tag": "v7.7.1",
-  "asset_name": "paperfmt-v7.7.1-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.1_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.1/paperfmt-v7.7.1-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.1/paperfmt-v7.7.1-setup.exe",
-  "asset_id": 638711207,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/638711207",
-  "size": 48569471,
-  "full_size": 48569471,
-  "sha256": "34A55D9DCFB7FEE85C9594476F7C3A0A1950415EFD87A1C8349925ECBE23164D",
-  "full_sha256": "34A55D9DCFB7FEE85C9594476F7C3A0A1950415EFD87A1C8349925ECBE23164D",
-  "release_notes": "## v7.7.1\n\n- 把早期几个版本的更新说明补全了。之前 v6.2 那一段只有一句笼统的阶段说明，看不到具体哪一版改了什么；现在按留存源码逐份比对，补上了能确证的两处。\n- v6.2.9（含 v6.2.8）：这两版之间只改了 4 行，实质只是版本号推进，没有功能变化，所以合并成一条说明。\n- v6.2.11：较上一版改动 137 行，属激活与签名校验的常规修补。\n- 说明：早期版本当时没有在程序里保存更新日志（经查早期装包内确实没有这部分内容），所以更早的版本仍按阶段合并说明；这里只补了有留存源码、能够核对的部分，没有凭空补写。",
+  "new_version": "7.7.2",
+  "version": "7.7.2",
+  "tag": "v7.7.2",
+  "asset_name": "paperfmt-v7.7.2-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.2_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.2/paperfmt-v7.7.2-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.2/paperfmt-v7.7.2-setup.exe",
+  "asset_id": 638986968,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/638986968",
+  "size": 48567135,
+  "full_size": 48567135,
+  "sha256": "66050B80FA8335FFEEF06C7598B06FE6572621D5C12473EFD83E24D45949EFE1",
+  "full_sha256": "66050B80FA8335FFEEF06C7598B06FE6572621D5C12473EFD83E24D45949EFE1",
+  "release_notes": "## v7.7.2\n\n- 阶段页不再用鼠标滚轮切换上一块/下一块了。以前在同一页里，滚轮有时候是翻页、有时候是上下滚动，得先猜内容够不够高。现在滚轮一律用来上下看内容，换块请用左右的 < > 或直接点上面的标签。\n- 顶部标签栏的标签宽度改成跟着实际文字宽度走。之前系统放大字号时，有些标签（例如「AI 产出思路」）左右两边的字会被药丸切掉。\n- 「AI 判断论文类型」那三行（学科门类/研究类型/研究对象）不再挤在卡片左边，改成跟同一页其它表单一样跟着卡片宽度铺满。之前右边空出一大片，跟旁边的卡片对不齐。\n- 说明：本次三处改动中，滚轮与卡片对齐两处已经过反向验证（改回去闸门会红）；标签宽度那处的原始问题没能复现出来，修复是否对症还需在真实系统缩放下确认。",
   "changelogs": {
+    "7.7.2": [
+      "阶段页不再用鼠标滚轮切换上一块/下一块了。以前在同一页里，滚轮有时候是翻页、有时候是上下滚动，得先猜内容够不够高。现在滚轮一律用来上下看内容，换块请用左右的 < > 或直接点上面的标签。",
+      "顶部标签栏的标签宽度改成跟着实际文字宽度走。之前系统放大字号时，有些标签（例如「AI 产出思路」）左右两边的字会被药丸切掉。",
+      "「AI 判断论文类型」那三行（学科门类/研究类型/研究对象）不再挤在卡片左边，改成跟同一页其它表单一样跟着卡片宽度铺满。之前右边空出一大片，跟旁边的卡片对不齐。",
+      "说明：本次三处改动中，滚轮与卡片对齐两处已经过反向验证（改回去闸门会红）；标签宽度那处的原始问题没能复现出来，修复是否对症还需在真实系统缩放下确认。"
+    ],
     "7.7.1": [
       "把早期几个版本的更新说明补全了。之前 v6.2 那一段只有一句笼统的阶段说明，看不到具体哪一版改了什么；现在按留存源码逐份比对，补上了能确证的两处。",
       "v6.2.9（含 v6.2.8）：这两版之间只改了 4 行，实质只是版本号推进，没有功能变化，所以合并成一条说明。",
@@ -535,5 +541,5 @@
       "说明：早期装包内未内置更新日志（实测 PyInstaller 归档中无 changelog 模块），当时的逐版改动未逐条记录。上面的内容依据留存源码逐份比对得出。"
     ]
   },
-  "published_at": "2026-10-14T00:43:48Z"
+  "published_at": "2026-10-14T02:42:57Z"
 }

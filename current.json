@@ -1,19 +1,24 @@
 {
-  "new_version": "7.7.5",
-  "version": "7.7.5",
-  "tag": "v7.7.5",
-  "asset_name": "paperfmt-v7.7.5-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.5_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.5/paperfmt-v7.7.5-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.5/paperfmt-v7.7.5-setup.exe",
-  "asset_id": 643378918,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/643378918",
-  "size": 48588939,
-  "full_size": 48588939,
-  "sha256": "3065788524B7875E4848CC126195FC1120CD53E03267E86E8A47D148C75BD685",
-  "full_sha256": "3065788524B7875E4848CC126195FC1120CD53E03267E86E8A47D148C75BD685",
-  "release_notes": "## v7.7.5\n\n- 标题和它下面那行小灰字之间的空隙，现在全项目统一了。以前同一个软件里有六种不同的间距，看起来像是有的卡片没排好——尤其是打开软件的第一个页面，那句大标题离下面的说明文字隔着一大片空白，像没加载完。现在改成统一的 8 像素。\n- 「排版工具」「设置」「关于」「提交材料清单」这几张卡里，标题原本会被拉高到几十像素，多出来的空白全塞在标题和说明之间，看着像标题下面缺了东西。现在标题按文字实际高度排，不再自己撑高。\n- 「使用提示」那一处保持原样没动（那是之前特意调过的间距）。",
+  "new_version": "7.7.6",
+  "version": "7.7.6",
+  "tag": "v7.7.6",
+  "asset_name": "paperfmt-v7.7.6-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.6_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.6/paperfmt-v7.7.6-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.6/paperfmt-v7.7.6-setup.exe",
+  "asset_id": 661076922,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/661076922",
+  "size": 48597993,
+  "full_size": 48597993,
+  "sha256": "0651741FA3FDC0E784C988EDF78DB7CFA0218E2930D61FD2DDAA2A311A002CEB",
+  "full_sha256": "0651741FA3FDC0E784C988EDF78DB7CFA0218E2930D61FD2DDAA2A311A002CEB",
+  "release_notes": "## v7.7.6\n\n- 排版时如果某一步悄悄没做成功，现在能在排版报告里看到原因了。以前有五种情况是「排版显示完成、实际没生效」，用户完全看不出来：页眉页脚串到别的章节、少数标题没被排版、整篇正文字体没换成规范字体、表格里的长数字被拆成两行。现在这些都会在报告里列出提示。\n- 文档里的图表不再和图片叠在一起。以前这个毛病修过两轮都没有测试盯着，所以又复发过；现在加了一道专门的检查，以后再改坏会被拦下。\n- 待办清单里几条其实早就做完了，只是没更新：更新弹窗的更新日志现在可以滚动查看、格式也正常显示；「生成深度」那一行的文字不再被切掉。这次一并把清单核对了一遍，避免以后照着过时结论去改已经改好的地方。",
   "changelogs": {
+    "7.7.6": [
+      "排版时如果某一步悄悄没做成功，现在能在排版报告里看到原因了。以前有五种情况是「排版显示完成、实际没生效」，用户完全看不出来：页眉页脚串到别的章节、少数标题没被排版、整篇正文字体没换成规范字体、表格里的长数字被拆成两行。现在这些都会在报告里列出提示。",
+      "文档里的图表不再和图片叠在一起。以前这个毛病修过两轮都没有测试盯着，所以又复发过；现在加了一道专门的检查，以后再改坏会被拦下。",
+      "待办清单里几条其实早就做完了，只是没更新：更新弹窗的更新日志现在可以滚动查看、格式也正常显示；「生成深度」那一行的文字不再被切掉。这次一并把清单核对了一遍，避免以后照着过时结论去改已经改好的地方。"
+    ],
     "7.7.5": [
       "标题和它下面那行小灰字之间的空隙，现在全项目统一了。以前同一个软件里有六种不同的间距，看起来像是有的卡片没排好——尤其是打开软件的第一个页面，那句大标题离下面的说明文字隔着一大片空白，像没加载完。现在改成统一的 8 像素。",
       "「排版工具」「设置」「关于」「提交材料清单」这几张卡里，标题原本会被拉高到几十像素，多出来的空白全塞在标题和说明之间，看着像标题下面缺了东西。现在标题按文字实际高度排，不再自己撑高。",
@@ -563,5 +568,5 @@
       "说明：早期装包内未内置更新日志（实测 PyInstaller 归档中无 changelog 模块），当时的逐版改动未逐条记录。上面的内容依据留存源码逐份比对得出。"
     ]
   },
-  "published_at": "2026-10-15T09:33:52Z"
+  "published_at": "2026-10-21T02:06:03Z"
 }

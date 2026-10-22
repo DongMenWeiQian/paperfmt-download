@@ -1,19 +1,22 @@
 {
-  "new_version": "7.7.14",
-  "version": "7.7.14",
-  "tag": "v7.7.14",
-  "asset_name": "paperfmt-v7.7.14-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.14_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe",
-  "asset_id": 665117135,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/665117135",
-  "size": 48611181,
-  "full_size": 48611181,
-  "sha256": "D773687787BBAAEC988B67DFA1E9D18C64B834D11C9DB09319D5E6D3E6ABC17C",
-  "full_sha256": "D773687787BBAAEC988B67DFA1E9D18C64B834D11C9DB09319D5E6D3E6ABC17C",
-  "release_notes": "## v7.7.14\n\n- 下载装包偶发失败的问题已修复：下载后会先核对完整性再提示安装。",
+  "new_version": "7.7.15",
+  "version": "7.7.15",
+  "tag": "v7.7.15",
+  "asset_name": "paperfmt-v7.7.15-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.15_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.15/paperfmt-v7.7.15-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.15/paperfmt-v7.7.15-setup.exe",
+  "asset_id": 665475754,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/665475754",
+  "size": 48599455,
+  "full_size": 48599455,
+  "sha256": "8A98BCC526D8F9607376A0A6EFBA5EE9B159D38AB7FBC5582B2C538F6BE26C79",
+  "full_sha256": "8A98BCC526D8F9607376A0A6EFBA5EE9B159D38AB7FBC5582B2C538F6BE26C79",
+  "release_notes": "## v7.7.15\n\n- 章节结构改为按研究类型选择，与专业大类无关。",
   "changelogs": {
+    "7.7.15": [
+      "章节结构改为按研究类型选择，与专业大类无关。"
+    ],
     "7.7.14": [
       "下载装包偶发失败的问题已修复：下载后会先核对完整性再提示安装。"
     ],
@@ -598,5 +601,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-22T08:00:23Z"
+  "published_at": "2026-10-22T10:20:56Z"
 }

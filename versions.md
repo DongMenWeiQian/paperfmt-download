@@ -26,8 +26,8 @@
 
 | 项 | 数量 |
 |---|---|
-| 版本总数 | 288 |
-| 线上可下载 | 288 (其中历史版本 231) |
+| 版本总数 | 291 |
+| 线上可下载 | 291 (其中历史版本 233) |
 | 仅本地 | 0 |
 
 ## 全部版本
@@ -54,7 +54,7 @@
 | src-e2e_v6439 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-e2e_v6439/source-e2e_v6439.zip) | 0.1 MB | `9927EA592AD0B3E0` | 历史版本 |
 | src-index | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-index/source-index.zip) | 0.0 MB | `454AFFC1C1F82AED` | 历史版本 |
 | src-legacy_helpers | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-legacy_helpers/source-legacy_helpers.zip) | 0.0 MB | `2CC0F0CCB49546CC` | 历史版本 |
-| src-mem_backup_20261006 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-mem_backup_20261006/source-mem_backup_20261006.old-eee67e82c520.zip) | 0.0 MB | `EEE67E82C5201B81` | 历史版本 |
+| src-mem_backup_20261006 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-mem_backup_20261006/source-mem_backup_20261006.old-6fffb4f1ddc8.zip) | 0.0 MB | `6FFFB4F1DDC8A959` | 历史版本 |
 | src-mem_backup_20261006_165632 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-mem_backup_20261006_165632/source-mem_backup_20261006_165632.zip) | 0.1 MB | `F3082D56540E6F5A` | 历史版本 |
 | src-paperfmt-screenshots | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-paperfmt-screenshots/source-paperfmt-screenshots.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-patches | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-patches/source-patches.zip) | 0.1 MB | `9DEA39B8AABC8539` | 历史版本 |
@@ -152,6 +152,8 @@
 | src-v7.7.10_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.10_prebuild/source-v7.7.10_prebuild.zip) | 13.4 MB | `14080984418FEB74` | 历史版本 |
 | src-v7.7.11_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.11_prebuild/source-v7.7.11_prebuild.zip) | 13.4 MB | `A7E7C007027CCAB8` | 历史版本 |
 | src-v7.7.12_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.12_prebuild/source-v7.7.12_prebuild.zip) | 13.4 MB | `06A7DEEADBCE8F02` | 历史版本 |
+| src-v7.7.13_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.13_prebuild/source-v7.7.13_prebuild.zip) | 13.4 MB | `C5003F8DFCF8128D` | 历史版本 |
+| src-v7.7.14_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.14_prebuild/source-v7.7.14_prebuild.zip) | 13.4 MB | `48136E63C12144D8` | 历史版本 |
 | src-v7.7.1_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.1_prev/source-v7.7.1_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-v7.7.2_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.2_prev/source-v7.7.2_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-v7.7.4_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.4_prebuild/source-v7.7.4_prebuild.zip) | 13.7 MB | `F816CFC2081D3044` | 历史版本 |
@@ -322,3 +324,4 @@
 | 7.7.10 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.10/paperfmt-v7.7.10-setup.exe) | 46.3 MB | `5BD7BE5795518B56` |  |
 | 7.7.12 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.12/paperfmt-v7.7.12-setup.exe) | 46.3 MB | `5520752624220BBA` |  |
 | 7.7.13 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.13/paperfmt-v7.7.13-setup.exe) | 46.3 MB | `C51751F55CAEC417` |  |
+| 7.7.14 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe) | 46.4 MB | `D773687787BBAAEC` |  |

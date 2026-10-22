@@ -26,8 +26,8 @@
 
 | 项 | 数量 |
 |---|---|
-| 版本总数 | 291 |
-| 线上可下载 | 291 (其中历史版本 233) |
+| 版本总数 | 292 |
+| 线上可下载 | 292 (其中历史版本 233) |
 | 仅本地 | 0 |
 
 ## 全部版本
@@ -325,3 +325,4 @@
 | 7.7.12 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.12/paperfmt-v7.7.12-setup.exe) | 46.3 MB | `5520752624220BBA` |  |
 | 7.7.13 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.13/paperfmt-v7.7.13-setup.exe) | 46.3 MB | `C51751F55CAEC417` |  |
 | 7.7.14 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe) | 46.4 MB | `D773687787BBAAEC` |  |
+| 7.7.15 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.15/paperfmt-v7.7.15-setup.exe) | 46.3 MB | `8A98BCC526D8F960` |  |

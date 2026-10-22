@@ -1,19 +1,22 @@
 {
-  "new_version": "7.7.13",
-  "version": "7.7.13",
-  "tag": "v7.7.13",
-  "asset_name": "paperfmt-v7.7.13-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.13_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.13/paperfmt-v7.7.13-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.13/paperfmt-v7.7.13-setup.exe",
-  "asset_id": 665064210,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/665064210",
-  "size": 48593412,
-  "full_size": 48593412,
-  "sha256": "C51751F55CAEC417BE2FA7B38F4A751BCB0613293854E26F8318534DA43D34AB",
-  "full_sha256": "C51751F55CAEC417BE2FA7B38F4A751BCB0613293854E26F8318534DA43D34AB",
-  "release_notes": "## v7.7.13\n\n- 历史更新日志的说明已重新组织，与最近几版的写法保持一致。\n- 更新日志改为一句一行显示，逐句分行更易读。\n- 历史上各版本的说明删去了改动过程，只保留现在的样子。",
+  "new_version": "7.7.14",
+  "version": "7.7.14",
+  "tag": "v7.7.14",
+  "asset_name": "paperfmt-v7.7.14-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.14_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe",
+  "asset_id": 665117135,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/665117135",
+  "size": 48611181,
+  "full_size": 48611181,
+  "sha256": "D773687787BBAAEC988B67DFA1E9D18C64B834D11C9DB09319D5E6D3E6ABC17C",
+  "full_sha256": "D773687787BBAAEC988B67DFA1E9D18C64B834D11C9DB09319D5E6D3E6ABC17C",
+  "release_notes": "## v7.7.14\n\n- 下载装包偶发失败的问题已修复：下载后会先核对完整性再提示安装。",
   "changelogs": {
+    "7.7.14": [
+      "下载装包偶发失败的问题已修复：下载后会先核对完整性再提示安装。"
+    ],
     "7.7.13": [
       "历史更新日志的说明已重新组织，与最近几版的写法保持一致。",
       "更新日志改为一句一行显示，逐句分行更易读。",
@@ -595,5 +598,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-22T07:38:20Z"
+  "published_at": "2026-10-22T08:00:23Z"
 }

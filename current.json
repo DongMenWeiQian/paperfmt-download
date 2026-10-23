@@ -1,19 +1,23 @@
 {
-  "new_version": "7.7.16",
-  "version": "7.7.16",
-  "tag": "v7.7.16",
-  "asset_name": "paperfmt-v7.7.16-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.16_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.16/paperfmt-v7.7.16-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.16/paperfmt-v7.7.16-setup.exe",
-  "asset_id": 667570332,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/667570332",
-  "size": 48619936,
-  "full_size": 48619936,
-  "sha256": "C6DC11F8DD48D9DC8C79B37B9A39806F9B82E66F6F1E2B5549D7853EEB701102",
-  "full_sha256": "C6DC11F8DD48D9DC8C79B37B9A39806F9B82E66F6F1E2B5549D7853EEB701102",
-  "release_notes": "## v7.7.16\n\n- 判断出的学科门类先给出建议，确认后才生效。\n- 启动时的提示窗口与其它弹窗外观统一。",
+  "new_version": "7.7.17",
+  "version": "7.7.17",
+  "tag": "v7.7.17",
+  "asset_name": "paperfmt-v7.7.17-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.17_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.17/paperfmt-v7.7.17-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.17/paperfmt-v7.7.17-setup.exe",
+  "asset_id": 667655936,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/667655936",
+  "size": 48615474,
+  "full_size": 48615474,
+  "sha256": "8678CD5F55F3F60106BB1F4204B5D2676D640CA330364FB314C75D46A22D0617",
+  "full_sha256": "8678CD5F55F3F60106BB1F4204B5D2676D640CA330364FB314C75D46A22D0617",
+  "release_notes": "## v7.7.17\n\n- 最小化到托盘后，托盘图标与桌面、任务栏显示的是同一张新图标。\n- 托盘图标备有多档尺寸，高分屏与小图标下都保持清晰。",
   "changelogs": {
+    "7.7.17": [
+      "最小化到托盘后，托盘图标与桌面、任务栏显示的是同一张新图标。",
+      "托盘图标备有多档尺寸，高分屏与小图标下都保持清晰。"
+    ],
     "7.7.16": [
       "判断出的学科门类先给出建议，确认后才生效。",
       "启动时的提示窗口与其它弹窗外观统一。"
@@ -605,5 +609,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-23T01:01:10Z"
+  "published_at": "2026-10-23T01:46:02Z"
 }

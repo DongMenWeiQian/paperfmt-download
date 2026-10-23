@@ -1,19 +1,23 @@
 {
-  "new_version": "7.7.17",
-  "version": "7.7.17",
-  "tag": "v7.7.17",
-  "asset_name": "paperfmt-v7.7.17-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.17_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.17/paperfmt-v7.7.17-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.17/paperfmt-v7.7.17-setup.exe",
-  "asset_id": 667655936,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/667655936",
-  "size": 48615474,
-  "full_size": 48615474,
-  "sha256": "8678CD5F55F3F60106BB1F4204B5D2676D640CA330364FB314C75D46A22D0617",
-  "full_sha256": "8678CD5F55F3F60106BB1F4204B5D2676D640CA330364FB314C75D46A22D0617",
-  "release_notes": "## v7.7.17\n\n- 最小化到托盘后，托盘图标与桌面、任务栏显示的是同一张新图标。\n- 托盘图标备有多档尺寸，高分屏与小图标下都保持清晰。",
+  "new_version": "7.7.18",
+  "version": "7.7.18",
+  "tag": "v7.7.18",
+  "asset_name": "paperfmt-v7.7.18-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.18_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.18/paperfmt-v7.7.18-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.18/paperfmt-v7.7.18-setup.exe",
+  "asset_id": 667770837,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/667770837",
+  "size": 48630953,
+  "full_size": 48630953,
+  "sha256": "39F8EB78D0201C84DB7BAF6B156A8C038CCDAF1EB39439EB066AECC1AA425A71",
+  "full_sha256": "39F8EB78D0201C84DB7BAF6B156A8C038CCDAF1EB39439EB066AECC1AA425A71",
+  "release_notes": "## v7.7.18\n\n- 学科判断出现分歧时，提示直接给出初筛结果与建议，不再重复同一句话。\n- 复核建议调整研究类型或研究对象时，提示写清调整前后的取值。",
   "changelogs": {
+    "7.7.18": [
+      "学科判断出现分歧时，提示直接给出初筛结果与建议，不再重复同一句话。",
+      "复核建议调整研究类型或研究对象时，提示写清调整前后的取值。"
+    ],
     "7.7.17": [
       "最小化到托盘后，托盘图标与桌面、任务栏显示的是同一张新图标。",
       "托盘图标备有多档尺寸，高分屏与小图标下都保持清晰。"
@@ -609,5 +613,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-23T01:46:02Z"
+  "published_at": "2026-10-23T02:50:04Z"
 }

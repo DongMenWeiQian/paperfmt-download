@@ -26,8 +26,8 @@
 
 | 项 | 数量 |
 |---|---|
-| 版本总数 | 292 |
-| 线上可下载 | 292 (其中历史版本 233) |
+| 版本总数 | 294 |
+| 线上可下载 | 294 (其中历史版本 234) |
 | 仅本地 | 0 |
 
 ## 全部版本
@@ -154,6 +154,7 @@
 | src-v7.7.12_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.12_prebuild/source-v7.7.12_prebuild.zip) | 13.4 MB | `06A7DEEADBCE8F02` | 历史版本 |
 | src-v7.7.13_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.13_prebuild/source-v7.7.13_prebuild.zip) | 13.4 MB | `C5003F8DFCF8128D` | 历史版本 |
 | src-v7.7.14_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.14_prebuild/source-v7.7.14_prebuild.zip) | 13.4 MB | `48136E63C12144D8` | 历史版本 |
+| src-v7.7.15_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.15_prebuild/source-v7.7.15_prebuild.zip) | 13.5 MB | `35F02455E995A414` | 历史版本 |
 | src-v7.7.1_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.1_prev/source-v7.7.1_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-v7.7.2_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.2_prev/source-v7.7.2_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-v7.7.4_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.4_prebuild/source-v7.7.4_prebuild.zip) | 13.7 MB | `F816CFC2081D3044` | 历史版本 |
@@ -326,3 +327,4 @@
 | 7.7.13 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.13/paperfmt-v7.7.13-setup.exe) | 46.3 MB | `C51751F55CAEC417` |  |
 | 7.7.14 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.14/paperfmt-v7.7.14-setup.exe) | 46.4 MB | `D773687787BBAAEC` |  |
 | 7.7.15 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.15/paperfmt-v7.7.15-setup.exe) | 46.3 MB | `8A98BCC526D8F960` |  |
+| 7.7.16 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.16/paperfmt-v7.7.16-setup.exe) | 46.4 MB | `C6DC11F8DD48D9DC` |  |

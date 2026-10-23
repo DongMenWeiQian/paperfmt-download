@@ -1,19 +1,23 @@
 {
-  "new_version": "7.7.18",
-  "version": "7.7.18",
-  "tag": "v7.7.18",
-  "asset_name": "paperfmt-v7.7.18-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.18_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.18/paperfmt-v7.7.18-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.18/paperfmt-v7.7.18-setup.exe",
-  "asset_id": 667770837,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/667770837",
-  "size": 48630953,
-  "full_size": 48630953,
-  "sha256": "39F8EB78D0201C84DB7BAF6B156A8C038CCDAF1EB39439EB066AECC1AA425A71",
-  "full_sha256": "39F8EB78D0201C84DB7BAF6B156A8C038CCDAF1EB39439EB066AECC1AA425A71",
-  "release_notes": "## v7.7.18\n\n- 学科判断出现分歧时，提示直接给出初筛结果与建议，不再重复同一句话。\n- 复核建议调整研究类型或研究对象时，提示写清调整前后的取值。",
+  "new_version": "7.7.19",
+  "version": "7.7.19",
+  "tag": "v7.7.19",
+  "asset_name": "paperfmt-v7.7.19-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.19_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.19/paperfmt-v7.7.19-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.19/paperfmt-v7.7.19-setup.exe",
+  "asset_id": 667976874,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/667976874",
+  "size": 48624334,
+  "full_size": 48624334,
+  "sha256": "A3EE4FDA2436C0CF54441D4E94E09EDA96B440056A0E59637E6A22EC44B934F5",
+  "full_sha256": "A3EE4FDA2436C0CF54441D4E94E09EDA96B440056A0E59637E6A22EC44B934F5",
+  "release_notes": "## v7.7.19\n\n- 门类待确认时，提示只说明状态，具体门类名在下方结果行显示。\n- 确认门类后，界面上的待确认提示会一并消失。",
   "changelogs": {
+    "7.7.19": [
+      "门类待确认时，提示只说明状态，具体门类名在下方结果行显示。",
+      "确认门类后，界面上的待确认提示会一并消失。"
+    ],
     "7.7.18": [
       "学科判断出现分歧时，提示直接给出初筛结果与建议，不再重复同一句话。",
       "复核建议调整研究类型或研究对象时，提示写清调整前后的取值。"
@@ -613,5 +617,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-23T02:50:04Z"
+  "published_at": "2026-10-23T04:39:10Z"
 }

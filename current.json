@@ -1,19 +1,23 @@
 {
-  "new_version": "7.7.20",
-  "version": "7.7.20",
-  "tag": "v7.7.20",
-  "asset_name": "paperfmt-v7.7.20-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.20_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.20/paperfmt-v7.7.20-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.20/paperfmt-v7.7.20-setup.exe",
-  "asset_id": 668323112,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/668323112",
-  "size": 48614456,
-  "full_size": 48614456,
-  "sha256": "EAB7DB2277DAB9EC34C326BB70655387FBD967B680CAB730AA02B4940ED8CA60",
-  "full_sha256": "EAB7DB2277DAB9EC34C326BB70655387FBD967B680CAB730AA02B4940ED8CA60",
-  "release_notes": "## v7.7.20\n\n- 发布前的装包自检现在能真正跑起来，界面渲染异常会拦住发布。",
+  "new_version": "7.7.21",
+  "version": "7.7.21",
+  "tag": "v7.7.21",
+  "asset_name": "paperfmt-v7.7.21-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.21_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.21/paperfmt-v7.7.21-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.21/paperfmt-v7.7.21-setup.exe",
+  "asset_id": 674387081,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/674387081",
+  "size": 48612911,
+  "full_size": 48612911,
+  "sha256": "576B3636AED01045215FF94CF676FDA123A867447B7FCDB002A7A502953C7870",
+  "full_sha256": "576B3636AED01045215FF94CF676FDA123A867447B7FCDB002A7A502953C7870",
+  "release_notes": "## v7.7.21\n\n- 法学等学科的写作提示已校正：统计与实证是合法的法学研究方法，不再列为禁忌。\n- 工科与信息技术的论文按需求、设计、实现、测试的体裁提示，与学校管理办法一致。",
   "changelogs": {
+    "7.7.21": [
+      "法学等学科的写作提示已校正：统计与实证是合法的法学研究方法，不再列为禁忌。",
+      "工科与信息技术的论文按需求、设计、实现、测试的体裁提示，与学校管理办法一致。"
+    ],
     "7.7.20": [
       "发布前的装包自检现在能真正跑起来，界面渲染异常会拦住发布。"
     ],
@@ -620,5 +624,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-23T07:24:47Z"
+  "published_at": "2026-10-25T07:28:30Z"
 }

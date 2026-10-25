@@ -1,19 +1,24 @@
 {
-  "new_version": "7.7.21",
-  "version": "7.7.21",
-  "tag": "v7.7.21",
-  "asset_name": "paperfmt-v7.7.21-setup.exe",
-  "source_filename": "河北经贸论文排版工具_v7.7.21_安装包.exe",
-  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.21/paperfmt-v7.7.21-setup.exe",
-  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.21/paperfmt-v7.7.21-setup.exe",
-  "asset_id": 674387081,
-  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/674387081",
-  "size": 48612911,
-  "full_size": 48612911,
-  "sha256": "576B3636AED01045215FF94CF676FDA123A867447B7FCDB002A7A502953C7870",
-  "full_sha256": "576B3636AED01045215FF94CF676FDA123A867447B7FCDB002A7A502953C7870",
-  "release_notes": "## v7.7.21\n\n- 法学等学科的写作提示已校正：统计与实证是合法的法学研究方法，不再列为禁忌。\n- 工科与信息技术的论文按需求、设计、实现、测试的体裁提示，与学校管理办法一致。",
+  "new_version": "7.7.22",
+  "version": "7.7.22",
+  "tag": "v7.7.22",
+  "asset_name": "paperfmt-v7.7.22-setup.exe",
+  "source_filename": "河北经贸论文排版工具_v7.7.22_安装包.exe",
+  "download_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.22/paperfmt-v7.7.22-setup.exe",
+  "full_url": "https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.22/paperfmt-v7.7.22-setup.exe",
+  "asset_id": 675008427,
+  "asset_api_url": "https://api.github.com/repos/DongMenWeiQian/paperfmt-download/releases/assets/675008427",
+  "size": 48614778,
+  "full_size": 48614778,
+  "sha256": "120E3DBCC354059250F1FC519EC4FCAC6B94ECBFDAEA1B658D2767CE9B477817",
+  "full_sha256": "120E3DBCC354059250F1FC519EC4FCAC6B94ECBFDAEA1B658D2767CE9B477817",
+  "release_notes": "## v7.7.22\n\n- 结构生成页的摘要与声明可以正常生成，顺序与装订要求一致。\n- 文档体检新增正文字数、参考文献篇数与外文篇数、四级标题四项检查。\n- 自动目录只列到三级，与学校要求一致。",
   "changelogs": {
+    "7.7.22": [
+      "结构生成页的摘要与声明可以正常生成，顺序与装订要求一致。",
+      "文档体检新增正文字数、参考文献篇数与外文篇数、四级标题四项检查。",
+      "自动目录只列到三级，与学校要求一致。"
+    ],
     "7.7.21": [
       "法学等学科的写作提示已校正：统计与实证是合法的法学研究方法，不再列为禁忌。",
       "工科与信息技术的论文按需求、设计、实现、测试的体裁提示，与学校管理办法一致。"
@@ -624,5 +629,5 @@
       "早期装包内未内置更新日志，PyInstaller 归档中无 changelog 模块。逐版改动未逐条记录。"
     ]
   },
-  "published_at": "2026-10-25T07:28:30Z"
+  "published_at": "2026-10-25T12:36:40Z"
 }

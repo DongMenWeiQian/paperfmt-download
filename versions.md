@@ -26,8 +26,8 @@
 
 | 项 | 数量 |
 |---|---|
-| 版本总数 | 304 |
-| 线上可下载 | 304 (其中历史版本 239) |
+| 版本总数 | 306 |
+| 线上可下载 | 306 (其中历史版本 240) |
 | 仅本地 | 0 |
 
 ## 全部版本
@@ -161,6 +161,7 @@
 | src-v7.7.19_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.19_prebuild/source-v7.7.19_prebuild.zip) | 13.5 MB | `5F0FC603BA3961CC` | 历史版本 |
 | src-v7.7.1_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.1_prev/source-v7.7.1_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-v7.7.20_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.20_prebuild/source-v7.7.20_prebuild.zip) | 13.5 MB | `BFEF99A8678A0D8A` | 历史版本 |
+| src-v7.7.21_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.21_prebuild/source-v7.7.21_prebuild.zip) | 13.5 MB | `BFD774D127E1BCC5` | 历史版本 |
 | src-v7.7.2_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.2_prev/source-v7.7.2_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
 | src-v7.7.4_prebuild | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.4_prebuild/source-v7.7.4_prebuild.zip) | 13.7 MB | `F816CFC2081D3044` | 历史版本 |
 | src-v7.7.4_prev | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/src-v7.7.4_prev/source-v7.7.4_prev.zip) | 0.0 MB | `8739C76E681F9009` | 历史版本 |
@@ -338,3 +339,4 @@
 | 7.7.19 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.19/paperfmt-v7.7.19-setup.exe) | 46.4 MB | `A3EE4FDA2436C0CF` |  |
 | 7.7.20 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.20/paperfmt-v7.7.20-setup.exe) | 46.4 MB | `EAB7DB2277DAB9EC` |  |
 | 7.7.21 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.21/paperfmt-v7.7.21-setup.exe) | 46.4 MB | `576B3636AED01045` |  |
+| 7.7.22 | [下载](https://github.com/DongMenWeiQian/paperfmt-download/releases/download/v7.7.22/paperfmt-v7.7.22-setup.exe) | 46.4 MB | `120E3DBCC3540592` |  |
